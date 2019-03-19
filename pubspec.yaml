@@ -1,0 +1,5 @@
+name: dart-sample
+description: A sample Dart boilerplate
+version: 0.0.1
+environment:
+  sdk: '2.2.0'
