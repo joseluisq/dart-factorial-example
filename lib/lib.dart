@@ -1,8 +1,8 @@
 /// Support for doing something awesome.
 ///
 /// More dartdocs go here.
-library package_simple;
+library dart_sample;
 
-export 'src/package_simple_base.dart';
+export 'math/math.dart';
 
 // TODO: Export any libraries intended for clients of this package.

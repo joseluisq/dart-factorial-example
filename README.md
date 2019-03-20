@@ -1,22 +1,33 @@
-A library for Dart developers.
+# Dart sample
+
+> A [Dart](https://www.dartlang.org/) factorial library example.
 
 Created from templates made available by Stagehand under a BSD-style
 [license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
 
 ## Usage
 
-A simple usage example:
+### Tasks usage
 
-```dart
-import 'package:package_simple/package_simple.dart';
+```sh
+# 1. install dependencies
+make deps
 
-main() {
-  var awesome = new Awesome();
-}
+# 2.1. run example
+make run
+# 2.2. test example
+make test
 ```
 
-## Features and bugs
+### Code usage
 
-Please file feature requests and bugs at the [issue tracker][tracker].
+A simple code usage example:
 
-[tracker]: http://example.com/issues/replaceme
+```dart
+import 'package:dart_sample/lib.dart';
+
+main() {
+  var math = Math();
+  double n = math.factorial(24);
+}
+```

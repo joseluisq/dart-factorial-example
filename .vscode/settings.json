@@ -2,18 +2,23 @@
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "editor.rulers": [
-    120
+    80
   ],
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.exclude": {
     "**/.git": true,
     "**/.DS_Store": true,
-    "node_modules": true,
     "test-lib": true,
-    "lib": true,
-    "coverage": true,
-    "npm": true
+    ".packages": true,
+    "coverage": true
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "test-lib": true,
+    ".packages": true,
+    "coverage": true
   },
   "eslint.enable": false,
   "typescript.format.enable": false,
